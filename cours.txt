@@ -1,0 +1,35 @@
+
+**************** Flexbox *******************
+
+display: flex 
+    * create a flex container
+    * all the direct childrens of the container are called flex items
+    * La direction de ces flex items est nommé: 
+        - MAIN AXIS (horizontal)
+        - CROSS AXIS (vertical)
+    * Différentes propriétées peuvent être appliqués sur le container et sur les items
+        * container
+            - flex-direction: row (default value)
+            - flex-wrap: nowrap
+            - justify-content: flex-start (maix axis)
+            - align-items: stretch (cross-axis)
+            - align-content: stretch (only if multiple rows)
+
+        * items
+            - align-self: auto 
+            - order: 0 
+            - flex-grow: 0
+            - flex-shrink: 1    flex: 0 1 auto
+            - flex-basis: auto
+    
+    * Valeurs:
+        - flex-direction: row, row-reverse, column, column-reverse
+        - justify-content: center, space-between, space-around, space-evenly, flex-start, flex-end
+        - align-items: stretch, center, flex-start, flex-end, baseline
+        - align-self: accept same as align-items; override the align for 1 item
+        - order: number (align from the lowest to the highiest)
+        - flex-grow: 1(occupied max width that he can)
+        - flex-basis: % (% of the container)
+        - flex-shrink: 1: allowed to shrink, 0: not allowed
+        - flex-wrap: wrap, no-wrap
+        - align-content: stretch, flex-start
