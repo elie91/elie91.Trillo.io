@@ -38,3 +38,8 @@ display: flex
 Scalable Vector Graphic
 icomoon.io
 Bibli Entypo+
+Pour changer la couleur d'un svg, il faut utiliser la propriété fill
+
+
+**************** DIVERS *******************
+Les inputs n'héritent pas la font family et font-size
