@@ -43,3 +43,5 @@ Pour changer la couleur d'un svg, il faut utiliser la propriété fill
 
 **************** DIVERS *******************
 Les inputs n'héritent pas la font family et font-size
+currentColor, good pour hover
+le z-index ne marche que si on a une position spécifié sur l'élément
