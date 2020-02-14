@@ -33,7 +33,10 @@ display: flex
         - flex-wrap: wrap, no-wrap
         - align-content: stretch, flex-start
 
+    On peut utiliser margin-right ou left: auto avec Flexbox, pour faire en sorte que 
+    l'élément ne prenne que la taille qu'il occupe
 
+    
 **************** SVG *******************
 Scalable Vector Graphic
 icomoon.io
