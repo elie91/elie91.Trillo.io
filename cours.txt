@@ -28,8 +28,8 @@ display: flex
         - align-self: accept same as align-items; override the align for 1 item
         - order: number (align from the lowest to the highiest)
         - flex-grow: 1(occupied max width that he can)
+        - flex-shrink: 1: allowed to shrink, 0: not allowed  
         - flex-basis: % (% of the container)
-        - flex-shrink: 1: allowed to shrink, 0: not allowed
         - flex-wrap: wrap, no-wrap
         - align-content: stretch, flex-start
 
