@@ -34,7 +34,7 @@ display: flex
         - align-content: stretch, flex-start
 
     On peut utiliser margin-right ou left: auto avec Flexbox, pour faire en sorte que 
-    l'élément ne prenne que la taille qu'il occupe
+    l'élément occupe tout l'espace disponible
 
     
 **************** SVG *******************
